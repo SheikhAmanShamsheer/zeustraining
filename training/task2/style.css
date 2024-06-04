@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(253, 253, 177);
+}
+h1{
+    text-align: center;
+    /* background-color: rgb(150, 17, 17); */
+    color: rgb(250, 250, 216);
+    background: rgb(121,9,43);
+background: linear-gradient(180deg, rgba(121,9,43,1) 0%, rgba(242,13,41,1) 100%);
+}
+h2{
+    background-color: green;
+    color: white;
+    padding-left: 10px;
+}
+
+#image{
+    border: 2px  grey dashed;
+}
+
+table{
+    background-color: grey;
+}
+
+h3{
+    color: grey;
+}
