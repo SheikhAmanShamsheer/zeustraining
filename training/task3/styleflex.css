@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.c{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    background: linear-gradient(135deg , rgb(123, 69, 248,1) ,rgb(123, 69, 248,0.7));
+    width: 800px;
+    height: 200px;
+}
+.sidebar{
+    width:200px;
+    height: 400px;
+    background: linear-gradient(45deg , rgb(17, 139, 123,1) , rgb(4, 252, 169,0.6));
+}
+.content1{
+    background: linear-gradient(135deg ,rgb(123, 69, 248),rgb(7, 133, 236),cyan 99%);
+    width: 300px;
+    height: 200px;
+}
+.content2{
+    background: linear-gradient(135deg ,rgb(123, 69, 248),rgb(7, 133, 236),cyan 99%);
+    width: 300px;
+    height: 200px;
+}
+.content3{
+    background: linear-gradient(135deg ,rgb(123, 69, 248),rgb(7, 133, 236),cyan 99%);
+    width: 600px;
+    height: 200px;
+}
+.footer{
+    text-align: center;
+    background: linear-gradient(135deg , rgb(123, 69, 248,1) ,rgb(123, 69, 248,0.7));
+    width: 800px;
+    height: 200px;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.top{
+    display: flex;
+    gap: 2px;
+}
