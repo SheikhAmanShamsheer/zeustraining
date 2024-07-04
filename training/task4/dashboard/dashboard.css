@@ -1,0 +1,157 @@
+.navbar {
+    background-image: url("../quantum_screen_assets/header\ pattern\ image.png");
+}
+
+.nav-link {
+    color: rgb(117, 240, 117);
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.nav-item>a:hover {
+    color: white;
+}
+
+/*code to change background color*/
+.nav-item a:active {
+    text-decoration: underline;
+    color: white;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around ; */
+    background-color: rgb(118, 243, 118);
+    width: 1400px;
+    height: 100px;
+    /* margin: 0px 40px; */
+    margin-top: 50px;
+
+}
+
+.slider_btn {
+    width: 700px;
+    height: 100px;
+    background-color: rgb(118, 243, 118);
+    border-bottom: 4px solid black;
+    /* border: 0px 2px solid black 0px 0px; */
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+}
+
+.slider_btn_class {
+    width: 700px;
+    height: 100px;
+    background-color: rgb(118, 243, 118);
+    /* border-bottom: 4px solid black; */
+    /* border: 0px 2px solid black 0px 0px; */
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-radius: 0px;
+}
+
+.slider_icons {
+    width: 40px;
+    height: 40px;
+}
+
+.cac {
+    margin: auto;
+    display: flex;
+}
+
+.num {
+    font-size: 30px;
+}
+
+.icon {
+    size: 60px;
+}
+
+.courses {
+    width: 800px;
+    border-bottom: 2px solid black;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+}
+.sort {
+    width: 1400px;
+    height: 50px;
+    padding-bottom: 0px;
+    margin: 40px 0px 0px 0px;
+}
+
+.line {
+    width: 1400px;
+}
+
+.sort_text {
+    font-size: 12px;
+}
+
+.sort_select {
+    width: 200px;
+    margin-right: 20px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid rgb(197, 195, 195);
+    outline: none;
+    /* border-bottom: ; */
+}
+
+.card {
+    margin: 30px;
+
+}
+
+
+.img-fluid {
+    width: 200px;
+    height: 200px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .slider {
+        width: 1250px;
+    }
+    .sort {
+        width: 1250px;
+    }
+    .line{
+        width: 1250px;
+    }
+}
+
+
+@media only screen and (max-width: 1250px) {
+    .slider {
+        width: 1000px;
+    }
+    .sort {
+        width: 1000px;
+    }
+    .line{
+        width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .slider {
+        width: 700px;
+    }
+    .sort {
+        width: 700px;
+    }
+    .line{
+        width: 700px;
+    }
+}
+

@@ -1,0 +1,66 @@
+.form{
+    width: 500px;
+    height: 620px;
+    margin-top: 50px;
+    border-top:  3px solid rgb(162, 162, 245);
+}
+
+.img{
+    margin-left: 20px;
+}
+
+.head{
+    font-size: 30px;
+}
+.navbar{
+    background-image: url("../quantum_screen_assets/header\ pattern\ image.png");
+}
+
+.btn{
+    width:  400px;
+}
+.do{
+    color: grey;
+}
+.dd{
+    color: grey;
+    width: 400px;
+}
+.sad{
+    width: 400px;
+    border-bottom: 2px solid rgb(240, 237, 237);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    outline: none;
+}
+.op{
+    border:  grey 2px solid;
+}
+.rmp{
+    font-size: 20px;
+
+    margin-left: 5px;
+}
+.ic{
+    background-color: green;
+    margin-top: 6px;
+    width: 22px;
+    height: 22px;
+}
+.btndiv{
+    display: flex;
+    justify-content: center;
+
+}
+.logbtn{
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
+    align-items: center;
+    width: 200px;
+}
+.rad{
+    accent-color: green;
+}
+.ds{
+    border-bottom: 2px solid grey;
+}
